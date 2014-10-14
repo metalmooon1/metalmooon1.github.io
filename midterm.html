@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>중간고사</title>
+  <style>
+    body{
+      max-width:600px;
+      background-color:white;
+      margin:100px 50px 100px
+    }
+    h1{
+      color:white;
+    font-family: nanumgothic,smgothic,sanserif;
+    text-align:center;
+      font-size:50px;
+      padding:20px;
+      background-color:black;
+      width:450px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .name{
+      text-align:right;
+    }
+    p{
+      margin:20px;
+      margin-left:0;
+    }
+    h2{
+      color:blue;
+      text-align:right;
+         font-family: nanumgothic,smgothic,sanserif;
+      border-left: 3px solid;
+    }
+    .단어{
+     padding: 1px;
+      background-color:#FFFFF0;
+      border: 1px solid #d0d1d5;
+      width:40px;
+      border-radius: 0 0 5px 5px;
+    }
+    .요소{
+      background-color:yellow;
+    }
+
+    li{
+      padding:2px;
+      margin:3px;
+      font-family: nanumgothic,smgothic,sanserif;
+ }
+    ul{
+        border-bottom: 1px solid #666;
+      padding-bottom:100px;
+    }
+em{color:grey;
+}
+img{
+  width:130px;
+  float:right;
+  margin:10px;
+  box-shadow:1px 1px 3px #666;
+}
+    table{
+      margin-left:auto;
+      margin-right:auto;
+      width:250px;
+      background-color:#FFFFF0;
+      box-shadow:1px 1px 3px #666;
+    text-align:center;
+    }
+    th{
+      color:black;
+    }
+    td{
+      color:grey;
+    }
+  </style>
+<body>
+<h1>중간고사</h1>
+  <div class="name">송수연</div>
+<h2>CSS란?</h2>
+<p>
+  CSS는 Cascading Stylesheet의 약자이며 HTML 같은 마크업 언어로 작성된 문서를 꾸미기 위해 사용합니다. HTML문서의 <strong class="단어">head</strong> 요소 안에 <strong class="단어">style</strong> 요소를 넣고 CSS 코드를 적으면 해당 문서를 다양하게 꾸밀 수 있습니다.
+</p>
+
+<p>
+  CSS에 대한 더 자세한 설명은  <a href="#">CSS</a> 문서를 참고하세요.
+</p>
+
+<h2>이미지 넣기</h2>
+
+<p>
+  <img class="풍경" src=" http://kaywonsad.appspot.com/s/art01.jpg" alt="이미지 넣기">
+  이미지를 넣으려면 <strong class="단어">img</strong> 요소를 사용합니다.
+</p>
+
+<p>
+  <strong class="단어">src</strong> 속성에는 이미지의 경로(URL)를 적습니다.
+</p>
+
+<p>
+  이미지 요소에는 항상 <strong class="단어">alt</strong> 속성을 사용하여 대체 텍스트를 명시해주어야 합니다. "alt"는 "Alternative text"의 약자로, 이미지를 표시할 수 없을 때 이미지를 대신하여 나타낼 텍스트를 뜻합니다.
+</p>
+
+<h2>
+표 만들기
+</h2>
+<p>
+  표를 만들려면 <strong class="단어">table</strong> 요소를 사용합니다.
+</p>
+<table>
+<tr>
+  <th>음료</th>
+  <th>가격</th>
+  <th>알콜</th>
+<tr>
+  <td>아메리카노</td>
+  <td>2,000</td>
+  <td>X</td>
+  </tr>
+<tr>
+  <td>카페모카</td> 
+  <td>2,500</td>
+  <td>X</td>
+</tr>
+<tr> 
+  <td>맥주</td>
+  <td>3,000</td>
+  <td>Y</td>
+  </tr>
+</table>
+
+<h2>
+블럭 요소 목록
+</h2>
+
+<p>
+다음은 HTML에서 자주 사용되는 요소들입니다.
+<ol>
+  <li><strong class="요소">p</strong>: 단락 (Paragraph)</li>
+<li><strong class="요소">h1</strong>: 큰제목 (Heading 1)</li>
+<li><strong class="요소">ul</strong>: 순서 없는 목록 (Unordered List)</li>
+<li><strong class="요소">ol</strong>: 순서 있는 목록 (Orderde List)</li>
+<li><strong class="요소">table</strong>: 표(table)</li>
+</ol>
+
+<h2>HTML이란?</h2>
+
+<p>
+  HTML은 <strong class="요소">하이퍼텍스트마크업 언어(Hypertext Markup Language)</strong>의 약자로, 웹 페이지를 만들 때 사용되는 문서 형식입니다.
+</p>
+
+<p>
+하이퍼텍스트(Hypertext)란 하이퍼링크 (Hyperlink)를 담고 있는 문서를 뜻합니다. 하이퍼링크는 문서들이 서로 연결되어 있는 고리를 말합니다.
+</p>
+
+<h2>
+인라인 요소 목록
+</h2>
+
+<p>
+다음은 HTML에서 자주 사용되는 요소들입니다.
+</p>
+
+<ul>
+  <li><strong class="요소">a</strong>: 하이퍼링크 (Anchor)</li>
+  <li><strong class="요소">img</strong>: 이미지(Image)</li>
+  <li><strong class="요소">span</strong>: 일반용도의 인라인 (Span)</li>
+  <li><strong class="요소">strong</strong>: 중요 (Strong)</li>
+  <li><strong class="요소">em</strong>: 강조 (Emphasis)</li>
+</ul>
+
+<em>2014년 10월 14일 중간고사, 송수연 작성</em>
+
+
+</body>
+</html>
