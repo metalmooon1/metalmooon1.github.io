@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>the king of jokgu-리플랫</title>
+  <style>
+   *{text-align:center;
+     font-family:NanumGothicCoding,sanserif;
+     color:black;}
+    body{background-image:
+      url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1911673_661802647267875_1452044878328036073_n.jpg?oh=9422c2cc09a32a06619149c0ac5d289f&oe=54ED8CB9&__gda__=1423627207_b57dfc2043f73d30293daca4a10d78d5");
+      width:100%;
+      height:2000px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+      background-position:100% 0;
+      
+      background-color:#D8D8D8;
+      
+    max-width:780px;
+  
+      
+    }
+    .leadcopy{
+    
+      font-size:18px;
+      position:relative;
+      left:20px;
+      margin-left:auto;
+      margin-right:auto;
+      max-width:800px;
+          color:#0e7a9e;
+      word-spacing:130px;
+ 
+    }
+       h1{font-size:1000%;
+         font-family:BM-HANNAStd,sanserif;
+         
+        text-align:center;
+         max-width:800px;
+         margin-left:auto;
+         margin-right:auto;
+      position:absolute;
+         top:500px;
+         left:200px;}
+    
+    ul{list-style-type:none;
+      margin-left:none;
+      position:relative;
+      top:500px;
+      }
+
+
+    .스토리{position:relative;
+      top:500px;}
+    p{max-width:800px;
+      text-align:center;
+      margin-left:auto;
+    margin-right:auto;
+      margin-bottom:50px;
+    }
+    img{width:150px;height:150px;
+      border-radius:75px;}
+    .story{position:absolute;
+    left:45%;
+      margin:0;
+      padding:0;
+      padding-top:830px;
+    }
+    .시놉시스{position:relative;
+    top:1180px;
+      left:30px;
+    }
+    .시놉시스2{position:relative;
+    top:1150px;
+      left:30px;
+    }
+
+    .주연{
+      position:absolute;
+      left:45%;
+      padding-top:400px;
+    text-align:center;
+      max-width:800px;
+      word-spacing:50px;
+    
+    }
+    .조연{
+      position:absolute;
+       left:45%;
+      padding-top:500px;
+       text-align:center;
+    }
+    .조연배우{
+      position:absolute;
+      padding-top:850px;
+    }
+    .조연배우들{float:left;
+    margin:8px;}
+    .provide{
+      position:relative;
+      top:1200px;}
+    .story{top:1130px;}
+  </style>
+</head>
+<body>
+    <h2 class="leadcopy">THE KING OF JOKGU</h2>
+  
+  
+  <h1>족구왕</h1>
+  <ul>
+    <li>
+      <h2 class="주연">주연</h2>
+      <ul>
+       
+        <li><img src="http://cfile212.uf.daum.net/image/23166A42545F360D0831D5" alt="안재홍">안재홍(홍만섭 역)</li>
+        
+    <li><img src="http://cfile201.uf.daum.net/image/27016C42545F360E2D15F7" alt="황승언">황승언(안나 역)</li>
+        
+   <li><img src="http://cfile224.uf.daum.net/image/227D4F42545F360E310ECB" alt="정우식">정우식(강민 역)</li>
+        
+ <li><img src="http://cfile227.uf.daum.net/image/2119E142545F360F021D06" alt="강봉성">강봉성(창호 역)</li>
+        
+<li><img src="http://cfile232.uf.daum.net/image/257D6F42545F360F31FD43" alt="황미영">황미영(미래 역)</li>
+        
+      </ul>
+    </li>
+    <li>
+      <h2 class="조연">조연</h2>
+      <ul class="조연배우">
+        <li class="조연배우들">박호산</li>
+        <li class="조연배우들">류혜린</li>
+    <li class="조연배우들">진태철</li>
+    <li class="조연배우들">최형선</li>
+    <li class="조연배우들">김왕근</li>
+    <li class="조연배우들">윤동환</li>
+    <li class="조연배우들">이세랑</li> 
+        
+      </ul>
+    </li>
+  
+  </ul>
+<h2 class="story">줄거리</h2>
+<p class="시놉시스">이름: 홍만섭, 나이: 24세. 신분: 식품영양학과 복학생. 학점: 2.1, 토익 점수: 받아본 적 없음. 스타일: 여자가 싫어하는 스타일. 여자 친구: 있어본 적 없음.다시 읽어봐도 답 안 나오는 스펙의 주인공 만섭. 지금 당장 공무원 시험에 뛰어들어도 모자랄 판에 캠퍼스 퀸 안나에게 첫눈에 반하질 않나, 총장과의 대화 시간에 족구장을 만들어달라고 하질 않나 아주 그냥 ‘족구 하는 소리’만 하고 있다.그런데 의외로 퀸카 안나가 요즘 남자애들 같지 않은 만섭의 천연기념물급 매력에 관심을 보이고, 만섭은 급기야 안나의 ‘썸남’인 ‘전직 국대 축구선수’인 강민을 족구 한판으로 무릎 꿇리기에 이른다. 이 사건으로 만섭은 ‘그저 그런 복학생’에서 순식간에 캠퍼스의 ‘슈퍼 복학생 히어로’가 되고, 취업준비장 같이 지루하던 캠퍼스는 족구 열풍에 휩싸인다. 학생들의 열화와 같은 관심 속에서 드디어 시작된 캠퍼스 족구대회! 누가 봐도 허술해 보이는 외인구단 만섭 팀은 복수심에 불타는 강민이 속한 최강 해병대팀을 이기고 사랑과 족구 모두를 쟁취할 수 있을까?</p>
+ <p class="시놉시스2"> 단 한편의 특급 코미디! 사랑과 족구를 그대에게 바친다!</p>
+
+      <ul class="provide">
+        <li>감독 우문기</li>
+        <li>제공 황금 물고기</li>
+    <li>공동제공 SPIHCRAFTS,광화문 시네마</li>
+    <li>배급/마케팅 KT&amp;G 상상마당</li>
+             
+        <li><h3 class="개봉일">개봉일 2014.8.21</h3></li>
+  </ul>
+
+  </body>
+</html>
+ 
+
+
+ 
+
