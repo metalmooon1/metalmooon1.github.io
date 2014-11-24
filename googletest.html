@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>mail page</title>
+    <style>
+
+      body{
+        font-family:nanumgothic, Helvetica, futura, sans-serif;
+        margin:0;
+        font-size:12px;
+        line-height:23px;
+        color:grey;
+      }
+      header{
+        background-color:#da4336;
+        color:white;
+        position:fixed;
+        left:0;
+        right:0;
+        height:50px;
+        padding:0px;
+        vertical-align:top;
+        margin:0 auto;
+        box-sizing: border-box;
+      }
+      header,section{
+        padding: 1em 1em 0.5em 1em;
+      }
+      header .menu {
+        display: inline-block;
+        width: 50px;
+        padding-right:0px;
+      }
+      header .search {
+        display: inline-block;
+        width: 30px;
+        padding-left:25%;
+        padding-right:25%;
+      }
+
+      header h1 {
+        display: inline;
+        font-size: 19px;
+      }
+      h2{
+        padding:0;
+        margin:0;
+        font-size:15px;
+      }
+      ul{
+        list-style-type:none;
+        margin:0;
+
+      }
+      li{
+        padding-left:10px;
+
+      }
+      img{
+        width:30px;
+        padding-left:10px;
+      }
+      a{
+        text-decoration:none;
+      }
+
+      .프로필사진{
+        width:35px;
+        height:35px;
+        border-radius:10px;
+      }
+      .내용프사{
+        width:35px;
+        height:35px;
+        border-radius:10px;
+      }
+      h1 span:first-child{
+        padding-left:50px;
+      }
+      .titlebar li{
+        float:left;
+      }
+      .사이드바{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 67px;
+        bottom: 0;
+        background-color: white;
+        overflow-y:scroll;
+        box-sizing:border;
+        padding-left:0;
+      }
+      .사이드바 ul{
+        padding:0;
+      }
+      .사이드바 ul li{
+        padding:0;
+      }
+      .메인 {
+        position: absolute;
+        top: 52px;
+        left: 64px;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        box-shadow: -1px 0px 6px #CCC;
+      }
+
+      .리스트,
+      .콘텐츠 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        box-shadow: -1px 0px 6px #CCC;
+        overflow-y: scroll;
+        box-sizing:border-box;
+        padding-left:0;}
+     
+ 
+
+      section.리스트 {
+        width: 36%;
+        left: 0;
+        z-index: 1;
+
+      }
+      .리스트 ul{
+        padding-left:5px;
+      }
+      section.콘텐츠 {
+        width: 60%;
+        right: 0;
+
+      }
+      .리스트 .소셜{
+        background-color:#6799FF;
+        color:white;
+        padding:5px 8px;
+
+      }
+      .리스트 .업데이트{
+        background-color:#FFBB00;
+        color:white;
+        padding:5px 8px;
+      }
+      .리스트 .프로모션{
+        background-color:#23B06A;
+        color:white;
+        padding:5px 8px;
+      }
+        .리스트 .직장{
+        background-color:#FF3636;
+        color:white;
+        padding:5px 8px;
+      }
+      .리스트 .가족{
+        background-color:#5CD1E5;
+        color:#008299;
+        padding:5px 8px;
+      }
+       
+        .좋아요{
+        background-color:#B2CCFF;
+        color:#003399;
+        padding:5px 8px;
+      }
+       .인박스{
+        background-color:#B2CCFF;
+        color:#003399;
+        padding:5px 8px;
+      }
+      @media(max-width:500px){
+.콘텐츠{
+  display:none;
+}
+        .사이드바{
+         left:px;
+        }
+      }
+      @media(max-width:582px){
+        header img{
+          width:15px;
+          padding-left:0;
+        }
+        hedder .menu,header .search{
+          width:1px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="menu"><img src="http://cfile234.uf.daum.net/image/25632145546EC26508EBD5" alt="menu"></div>
+      <h1>
+        Primary
+      </h1>
+      
+      <div class="menu"><img src="http://cfile205.uf.daum.net/image/21049142546EC26012A669" alt="index"></div>
+      <div class="menu"><img src="http://cfile209.uf.daum.net/image/2456AD4A546F4BAB28610B" alt="delete"></div>
+      <div class="menu"><img src="http://cfile236.uf.daum.net/image/2764B245546EC2640774E3" alt="mail"></div>
+      <div class="menu"><img src="http://cfile232.uf.daum.net/image/2376EF42546EC26122B87F" alt="folder"></div>
+      <div class="menu"><img src="http://cfile229.uf.daum.net/image/23470945546EC2652AEEB9" alt="more"></div>
+    </header>
+
+    <section class="사이드바">
+      <ul>
+<li><img class="내용프사" src="http://postfiles1.naver.net/20100625_272/kensin626_1277452315377Nd1H1_png/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EB%94%B0%EC%8A%A4%ED%95%9C_%ED%96%87%EC%82%B4%EA%B0%99%EC%9D%80_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B801_kensin626.png?type=w2" alt="me"></li>
+        <li><img src="http://cfile215.uf.daum.net/image/25691745546EC26702B793" alt="chat list"></li>
+        <li><img src="http://cfile221.uf.daum.net/image/25440A45546EC2662DCBFA" alt="social"></li>
+        <li><img src="http://cfile217.uf.daum.net/image/25068A42546EC2630F96C9" alt="local offer"></li>
+        <li><img src="http://cfile210.uf.daum.net/image/227D0742546EC262192E92" alt="information"></li>
+        <li><img class="내용프사"  src="http://postfiles10.naver.net/20100625_9/kensin626_1277452318585tozTX_png/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EB%94%B0%EC%8A%A4%ED%95%9C_%ED%96%87%EC%82%B4%EA%B0%99%EC%9D%80_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B804_kensin626.png?type=w2" alt="friend"></li>
+        <li><img class="내용프사" src="http://postfiles8.naver.net/20100625_151/kensin626_1277452316547MJHOi_png/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EB%94%B0%EC%8A%A4%ED%95%9C_%ED%96%87%EC%82%B4%EA%B0%99%EC%9D%80_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B802_kensin626.png?type=w2" alt="work"></li>
+      </ul>
+    </section>
+
+    <section class="메인">
+      <section class="리스트">
+        <ul>
+          <li>
+          <span><img src="http://cfile221.uf.daum.net/image/25440A45546EC2662DCBFA" alt="social"></span>
+          <div><h2>Social</h2></div>
+            <span>Google+</span>
+          <span class="소셜">1 New</span>
+          </li>
+        
+            <li><img src="http://cfile217.uf.daum.net/image/25068A42546EC2630F96C9" alt="프로모션"></li>
+          <li><h2>Promotion</h2></li>
+            <li>Zagat, Google Offers</li>
+          <li class="프로모션">2 New</li>
+         
+        <li>
+            <span><img src="http://cfile210.uf.daum.net/image/227D0742546EC262192E92" alt="업데이트"></span>
+            <div><h2>Updates</h2></div>
+            <span>Google Play</span>
+            <span class="업데이트">1 New</span>
+          </li>
+          <li>
+            <span><img class="프로필사진"  src="http://postfiles12.naver.net/20100624_123/kensin626_1277337371879So9qj_gif/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%94%EB%81%94%ED%95%9C_%ED%8C%AC%EC%8B%9C_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B801_kensin626.gif?type=w2" alt="Andy Brown"></span>
+            <h3>Andy Brown</h3>
+            <span>1:45 PM</span>
+            <div>Lorem Ipsum is simply dummy.</div>
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <span class="직장">work</span>
+            <span><img src="http://cfile222.uf.daum.net/image/2368483D546EC269366A36" alt="별"></span>
+          </li>
+          <li>   
+            <span><img class="프로필사진" src="http://postfiles4.naver.net/20100624_115/kensin626_1277337372636SQ78R_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%94%EB%81%94%ED%95%9C_%ED%8C%AC%EC%8B%9C_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B815_kensin626.jpg?type=w2" alt="Keri Anderson"></span>
+            <h3>Keri Anderson</h3>
+            <span><img src="http://cfile202.uf.daum.net/image/27078D42546EC2610F5088" alt="attechment"></span>
+            <span>1:39 PM</span>
+            <div>Lorem Ipsum is simply dummy.</div>
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <span><img src="http://cfile222.uf.daum.net/image/2368483D546EC269366A36" alt="별"></span>
+          </li>
+          <li>
+            <span><img class="프로필사진" src="http://postfiles3.naver.net/20100624_194/kensin626_1277337414084a5jhn_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%94%EB%81%94%ED%95%9C_%ED%8C%AC%EC%8B%9C_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B826_kensin626.jpg?type=w2" alt="Regis,Peter,Rachel 3"></span>
+            <h3>Regis,Peter,Rachel 3</h3>
+            <span>sep 29</span>
+            <div>Lorem Ipsum is simply dummy.</div>
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <span class="좋아요">fun</span>
+            <span><img src="http://cfile234.uf.daum.net/image/2302AF3D546EC269176FD5" alt="star"></span>
+          </li>
+          <li>
+            <span><img class="프로필사진" src="http://postfiles8.naver.net/20100628_119/kensin626_1277712523798nnzrU_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%9C%EC%B0%8D%ED%95%9C_%EB%8F%99%EB%AC%BC%EB%93%A4%EC%9D%B4_%EC%98%B9%EA%B8%B0%EC%A2%85%EA%B8%B0_%EC%9E%88%EB%8A%94_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B807_kensin626.jpg?type=w2" alt="Aruna Knight"></span>
+            <h3>Aruna Knight</h3>
+            <span>sep 29</span>
+            <div>Lorem Ipsum is simply dummy.</div>
+            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <span class="가족">family</span>
+            <span><img src="http://cfile234.uf.daum.net/image/2302AF3D546EC269176FD5" alt="별"></span>
+          </li>
+        </ul>
+      </section>
+      <section class="콘텐츠">
+        <ul>
+          <li>
+            <span>Board game night?</span>
+            <span class="좋아요">fun</span>
+            <span class="인박스">inbox</span>
+            <span><img src="http://cfile234.uf.daum.net/image/2302AF3D546EC269176FD5" alt="별"></span>
+          </li>
+          <li>
+            <span><img class="프로필사진" src="http://postfiles3.naver.net/20100624_194/kensin626_1277337414084a5jhn_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%94%EB%81%94%ED%95%9C_%ED%8C%AC%EC%8B%9C_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B826_kensin626.jpg?type=w2" alt="Regis Miller"></span>
+            <h3>Regis Miller</h3>
+            <span>Sep 29</span>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+          </li>
+          <li>
+            <span><img class="프로필사진" src="http://postfiles13.naver.net/20100628_76/kensin626_1277712528730S78mx_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%9C%EC%B0%8D%ED%95%9C_%EB%8F%99%EB%AC%BC%EB%93%A4%EC%9D%B4_%EC%98%B9%EA%B8%B0%EC%A2%85%EA%B8%B0_%EC%9E%88%EB%8A%94_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B818_kensin626.jpg?type=w2" alt="Peter Johnson"></span>
+            <h3>Peter Johnson</h3>
+            <span>Sep 29</span>
+            <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+          </li>
+          <li>
+            <span><img class="프로필사진" src="http://postfiles13.naver.net/20100628_92/kensin626_1277712584641xDE8B_jpg/%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8_%EA%B9%9C%EC%B0%8D%ED%95%9C_%EB%8F%99%EB%AC%BC%EB%93%A4%EC%9D%B4_%EC%98%B9%EA%B8%B0%EC%A2%85%EA%B8%B0_%EC%9E%88%EB%8A%94_%EB%8F%99%ED%99%94_%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B831_kensin626.jpg?type=w2" alt="Rachel Shin"></span>
+            <h3>Rachel Shin</h3>
+            <span><img src="http://cfile226.uf.daum.net/image/213C4645546EC2673734F4" alt="replay"></span>
+            <span><img src="http://cfile202.uf.daum.net/image/217B2C42546EC2621AE2AA" alt="forward"></span>
+            <span><img src="http://cfile229.uf.daum.net/image/23470945546EC2652AEEB9" alt="more"></span>
+            <div>to me</div>
+            <div>sep 29<a href="#">view details</a></div>
+            <div>Lorem Ipsum is simply dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <div><a href="#">▶Lorem Ipsum is simply dummy.</a></div>
+          </li>
+          <li><img src="http://cfile226.uf.daum.net/image/213C4645546EC2673734F4" alt="replay"><img src="http://cfile215.uf.daum.net/image/23496645546EC2682949F6" alt="replay all"><img src="http://cfile202.uf.daum.net/image/217B2C42546EC2621AE2AA" alt="forward"></li>
+        </ul>
+      </section>
+    </section>
+  </body>
+</html>
